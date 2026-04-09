@@ -11,7 +11,7 @@ const pool=mysql.createPool({
 	host:'localhost',
 	user:'root',
 	password:'',
-	database:'bsc_address',
+	database:'bsc_address_test',
 });
 
 app.get('/api/users',(req,res)=>{
